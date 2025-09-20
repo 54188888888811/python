@@ -3,12 +3,7 @@ import re
 from fake_useragent import UserAgent
 # 脚本维护-2025-8-10--1 ——百度翻译需要cookies，已解决 添加元素 session ，session.post()用法|但问题依旧存在
 # 目前推测为ip问题，理由修改完cookies后成功返回了一次正常结果,辅证 http://www.lryc.cn/news/416335.html?action=onClick
-print("""
-
-js逆向常见编码与加密方式：base64，unicode，urlencode ;
-                          MD5,SHA1,HMAC,DES,RSA
-                          """)
-
+# 百度翻译目前仅作为参考，并不稳定
 class Short_word:   #百度翻译
     def __init__(self):
         self.uil = self
@@ -119,4 +114,5 @@ while 1:
         print('百度翻译崩溃了')
 
            
+
 
