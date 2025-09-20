@@ -52,17 +52,3 @@ class FirstSpiderSpider(scrapy.Spider):
         all_item['detail'] = temp_detail['detail']
         yield all_item['name']
         yield all_item['detail']
-
-        # for i in result:
-        #     print(i)
-
-
-
-            #//div[3]/p/text()
-            # print(temp['name'])
-            # print('https://www.linovelib.com'+temp['uil'])
-            # with open('text.txt','a',encoding='utf-8')as f:
-            #     f.write(temp['name'])
-            #     f.write('\n')
-            #     f.write('https://www.linovelib.com'+temp['uil'])
-            #     f.write('\n')
